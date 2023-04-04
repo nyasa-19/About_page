@@ -85,6 +85,7 @@ ul li a{
 
 .description {
     display: flex;
+    flex-wrap: wrap;
     align-items: center;
     justify-content: center;
 }
@@ -184,15 +185,19 @@ ul li a{
     .navbar-links.active {
         display: flex;
     }
+    
+    .text{
+        flex: 50%;
+        font-size: 32px;
+        text-align: center;
+        margin: 4px;
+        padding-bottom: 30px;
+    }
 
     .image{
+        flex: 50%;
         width:90%;
         align-content: center;
     }
 
-    .text{
-        font-size: 18px;
-        text-align: center;
-        margin: 4px;
-    }
 }
