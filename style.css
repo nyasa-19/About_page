@@ -209,5 +209,6 @@ ul li a{
 
     .buttons{
         display: -webkit-inline-flex;
+        margin-left: 0%;
     }
 }
